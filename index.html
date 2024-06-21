@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>jQuery UI Menu Toepassing</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <script type="text/javascript">
+            $(function() {
+                $("#menu").menu();
+            });
+        </script>
+        <style>
+            .ui-menu {
+                width: 200px;
+                background-color: #FFFF66;
+            }
+            body {
+                background-color: #FFFFCC;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="menu">
+            <li><div>Muziek</div>
+                <ul>
+                    <li><div>Prince - 1999 CD</div></li>
+                    <li><div>Prince - Purple Rain CD</div></li>
+                    <li><div>Prince - Diamonds and Pearls CD</div></li>
+                    <li class="ui-state-disabled"><div>Prince - Love Symbol Album (n/a)</div></li>
+                </ul>
+            </li>
+            <li><div>Films</div>
+                <ul>
+                    <li><div>Poor Things DVD</div></li>
+                    <li><div>Mean Girls DVD</div></li>
+                    <li><div>Oppenheimer DVD</div></li>
+                    <li class="ui-state-disabled"><div>Blue Beetle DVD (n/a)</div></li>
+                </ul>
+            </li>
+            <li><div>Boeken</div>
+                <ul>
+                    <li><div>JavaScript/jQuery</div></li>
+                    <li><div>Python</div></li>
+                    <li><div>Swift</div></li>
+                    <li class="ui-state-disabled"><div>C# (n/a)</div></li>
+                </ul>
+            </li>
+            <li><div>Strips</div>
+                <ul>
+                    <li><div>Suske & Wiske - De schat van Beersel</div></li>
+                    <li><div>Suske & Wiske - De bronzen sleutel</div></li>
+                    <li><div>Suske & Wiske - De bokkenrijders</div></li>
+                    <li class="ui-state-disabled"><div>Suske & Wiske - De gouden cirkel (n/a)</div></li>
+                </ul>
+            </li>
+            <li><div>Merchandise</div>
+                <ul>
+                    <li><div>Dunder Mifflin mok</div></li>
+                    <li><div>Dunder Mifflin sleutelhanger</div></li>
+                    <li><div>Dunder Mifflin Dundie Award Trophy replica</div></li>
+                    <li class="ui-state-disabled"><div>Dunder Mifflin Office portret (n/a)</div></li>
+                </ul>
+            </li>
+    </body>
+</html>
